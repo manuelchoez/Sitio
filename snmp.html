@@ -145,8 +145,20 @@ ul.nav a { zoom: 1; }  /* la propiedad de zoom da a IE el desencadenante hasLayo
     <!-- end .sidebar1 --></div>
   <div class="content">
     
-	<img src="images/PaginaConstruccion.jpg" alt="">
+	<h2>Simple Network Management Protocol (SNMP)</h2>
+	<p>Simple Network Management Protocol (SNMP) es un protocolo de red que permite a los administradores de redes monitorear y administrar dispositivos de red, como routers, switches, servidores, impresoras y otros dispositivos. SNMP proporciona información sobre el estado y el rendimiento de los dispositivos de red y permite a los administradores realizar tareas remotas de configuración y solución de problemas.</p>
+	<p>SNMP utiliza una estructura de datos llamada MIB (Base de datos de Gestión de Información de Red) para describir y organizar la información disponible sobre los dispositivos de red. Los dispositivos de red son monitoreados por agentes SNMP que responden a las peticiones de información enviadas por una consola de gestión de red.</p>
+	<p>SNMP es un protocolo ampliamente utilizado y es compatible con la mayoría de los sistemas operativos de red, lo que permite una gestión de red centralizada y uniforme. Sin embargo, también es importante tener en cuenta la seguridad en la configuración de SNMP, ya que información confidencial puede ser expuesta a través de la red si la seguridad no se configura adecuadamente.</p>
 
+	<h2>Configuración</h2>
+	<p>Para configurar el protocolo Simple Network Management Protocol (SNMP) en Windows Server 2019, siga estos pasos:</p>
+	<ol>1. Instale el rol SNMP: Abra el Administrador de servidores y seleccione "Agregar roles y características". En la sección "Roles de servidor", seleccione "SNMP Service" y complete el asistente de configuración.</ol>
+	<ol>2. Configuración de los comunidades SNMP: Abra la consola de SNMP y seleccione "Comunidades SNMP". Cree una nueva comunidad y configure las opciones de lectura y escritura según sus necesidades.</ol>
+	<ol>3. Configuración de la seguridad: Configure la seguridad SNMP para restringir el acceso a la información SNMP solo a los agentes autorizados. Esto se puede hacer mediante la configuración de reglas de acceso en la consola de SNMP.</ol>
+	<ol>4. Configuración de los destinatarios: Abra la consola de SNMP y seleccione "Destinatarios". Agregue destinatarios autorizados para recibir información SNMP del servidor.</ol>
+	<ol>5. Verificación de la configuración: Verifique la configuración de SNMP utilizando una herramienta de prueba SNMP para asegurarse de que el servidor esté proporcionando la información esperada.</ol>
+
+	<p>Es importante tener en cuenta que la configuración de SNMP debe ser realizada cuidadosamente para evitar la exposición de información confidencial a través de la red. También es recomendable leer la documentación y los recursos en línea para obtener más información sobre cómo configurar SNMP de manera segura y efectiva en Windows Server 2019.</p>
     </div>
   </div>
 </body>
